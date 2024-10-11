@@ -92,6 +92,7 @@ for i,job in enumerate(top_3_jobs):
         ax[i].set_xticks([]) # removing xticks on ax[0] and ax[1]
 fig.suptitle("Likelihood of Skills Requested in US Data Job Postings", fontsize = 15)
 fig.tight_layout()
+plt.show()
 ```
 
 ### Results
